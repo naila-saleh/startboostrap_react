@@ -1,5 +1,7 @@
+import Navbar from "./components/navbar/Navbar.jsx";
+
 export default function App(){
     return <>
-        <h1>Home Page</h1>
+        <Navbar />
     </>;
 }

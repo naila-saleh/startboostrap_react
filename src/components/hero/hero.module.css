@@ -1,0 +1,33 @@
+.hero {
+    background-color: var(--secondary-color);
+}
+.title{
+    font-size: 70px;
+    font-weight: bold;
+}
+.star{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+}
+.star::before, .star::after{
+    content: "";
+    flex: 1;
+    border-top: 5px solid var( --tertiary-color);
+    border-radius: 10px;
+}
+.star svg{
+    padding: 0 5px;
+    margin: 0 5px;
+}
+@media (max-width: 768px){
+    .title{
+        font-size: 50px;
+    }
+}
+@media (max-width: 576px){
+    .title{
+        font-size: 30px;
+    }
+}

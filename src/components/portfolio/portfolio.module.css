@@ -1,0 +1,24 @@
+.title{
+    color: var(--main-color);
+    font-size: 48px;
+    font-weight: bold;
+}
+.star{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+}
+.star::before, .star::after{
+    content: "";
+    flex: 1;
+    border-top: 4px solid var( --main-color);
+    border-radius: 10px;
+}
+.star svg{
+    padding: 0 8px;
+    margin: 0 2px;
+}
+.star svg path{
+    fill: var(--main-color);
+}

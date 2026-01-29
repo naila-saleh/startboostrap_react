@@ -1,0 +1,7 @@
+.footer {
+    background-color: var(--main-color);
+}
+.link{
+    color: var(--secondary-color);
+    cursor: pointer;
+}

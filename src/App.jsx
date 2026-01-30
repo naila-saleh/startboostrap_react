@@ -2,6 +2,7 @@ import Navbar from "./components/navbar/Navbar.jsx";
 import Hero from "./components/hero/Hero.jsx";
 import Portfolio from "./components/portfolio/Portfolio.jsx";
 import Footer from "./components/footer/Footer.jsx";
+import About from "./components/about/About.jsx";
 
 export default function App(){
     return <>
@@ -9,6 +10,7 @@ export default function App(){
         <main>
             <Hero />
             <Portfolio />
+            <About />
         </main>
         <Footer />
     </>;

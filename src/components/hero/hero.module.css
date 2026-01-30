@@ -14,7 +14,7 @@
 .star::before, .star::after{
     content: "";
     flex: 1;
-    border-top: 5px solid var( --tertiary-color);
+    border-top: 4px solid var( --tertiary-color);
     border-radius: 10px;
 }
 .star svg{

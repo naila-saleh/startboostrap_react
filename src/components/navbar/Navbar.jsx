@@ -3,7 +3,7 @@ import style from './navbar.module.css'
 
 export default function Navbar() {
     return (
-        <nav className={`navbar navbar-expand-lg py-2 ${style.navbar} `}>
+        <nav className={`navbar navbar-expand-lg py-2 position-sticky top-0 ${style.navbar} `}>
             <div className="container">
                 <a className="navbar-brand text-uppercase text-light fw-bolder fs-4" href="#">Start Bootstrap</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"

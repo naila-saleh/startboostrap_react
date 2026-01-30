@@ -1,4 +1,5 @@
 .navbar{
     background-color: var(--main-color);
     color: var(--tertiary-color);
+    z-index: 999;
 }

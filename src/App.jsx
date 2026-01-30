@@ -3,6 +3,7 @@ import Hero from "./components/hero/Hero.jsx";
 import Portfolio from "./components/portfolio/Portfolio.jsx";
 import Footer from "./components/footer/Footer.jsx";
 import About from "./components/about/About.jsx";
+import Contact from "./components/contact/Contact.jsx";
 
 export default function App(){
     return <>
@@ -11,6 +12,7 @@ export default function App(){
             <Hero />
             <Portfolio />
             <About />
+            <Contact />
         </main>
         <Footer />
     </>;
